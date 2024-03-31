@@ -1,0 +1,81 @@
+#root {
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+
+}
+
+.main {
+  display: flex;
+  margin: auto;
+  gap: 24px;
+  max-width: 75%;
+  height: 100%;
+}
+
+.main-content {
+  width: 100%;
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 1px 1px 10px 2px black;
+}
+
+.side-content {
+  text-align: start;
+  width: 30%;
+  background-color: white;
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+
+
+
+.info {
+  display: flex;
+  justify-content: space-evenly; 
+  gap: 10px; 
+  text-align: center;
+}
+
+
+
+.info-text {
+  display: flex;
+  gap: 10px;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+
+body {
+  min-height: 100vh;
+  background-color: rgb(243, 244, 246);
+}
+
+.header-text {
+  color: rgb(50, 102, 168);
+}
+
+.education-input-header, .header-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.mail-input, .phone-number-input, .main-address-input, .career-header{
+  font-weight: 700;
+}
+
+.career-header, .job-title, .degree-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.degree-inputs {
+  margin-top: 10px;
+}
